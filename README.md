@@ -13,8 +13,10 @@ AI-driven analysis focusing on:
 Clean, user-friendly interface built with Streamlit
 
 Clone the repository:
+
 ```git clone https://github.com/your-username/ai-resume-critiquer.git
 cd ai-resume-critiquer```
+
 
 🧩 Tech Stack
 
@@ -25,12 +27,15 @@ OpenAI API - AI-powered feedback
 dotenv - Secure environment variables management
 
 Create and activate a virtual environment:
+
 ```python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate```
 
 Set your OpenAI API key:
+
 Create a .env file in the root directory:
 ```OPENAI_API_KEY=your_openai_api_key_here```
 
 Run the Streamlit app:
+
 ```streamlit run app.py```
